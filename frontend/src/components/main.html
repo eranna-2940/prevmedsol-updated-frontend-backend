@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Store</title>
+    <style>
+        /* Add some basic styles for the cards */
+        .card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <button id="cart-button">Cart</button>
+    </nav>
+    <div class="card">
+        <h3>Plan 1</h3>
+        <p>Amount: $10</p>
+        <button class="add-to-cart" data-amount="10" data-plan="Plan 1">Add to Cart</button>
+    </div>
+    <div class="card">
+        <h3>Plan 2</h3>
+        <p>Amount: $20</p>
+        <button class="add-to-cart" data-amount="20" data-plan="Plan 2">Add to Cart</button>
+    </div>
+    <div class="card">
+        <h3>Plan 3</h3>
+        <p>Amount: $30</p>
+        <button class="add-to-cart" data-amount="30" data-plan="Plan 3">Add to Cart</button>
+    </div>
+    <div id="cart" style="display: none;">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total Amount: $<span id="total-amount">0</span></p>
+    </div>
+    <script>
+        const cartButton = document.getElementById('cart-button');
+        const cart = document.getElementById('cart');
+        const cartItems = document.getElementById('cart-items');
+        const totalAmount = document.getElementById('total-amount');
+
+        const addToCartButtons = document.querySelectorAll('.add-to-cart');
+
+        let cartItemsData = [];
+
+        // Show/hide the cart when the cart button is clicked
+        cartButton.addEventListener('click', () => {
+            updateCart();
+            cart.style.display = cart.style.display === 'none' ? 'block' : 'none';
+        });
+
+        // Update the cart display
+        function updateCart() {
+            cartItems.innerHTML = '';
+            let cartTotal = 0;
+
+            cartItemsData.forEach(item => {
+                cartTotal += item.amount;
+                const listItem = document.createElement('li');
+                listItem.textContent = `${item.planName} - $${item.amount}`;
+                cartItems.appendChild(listItem);
+            });
+
+            totalAmount.textContent = cartTotal;
+        }
+
+        // Add click event to each "Add to Cart" button
+        addToCartButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const amount = parseInt(button.getAttribute('data-amount'));
+                const planName = button.getAttribute('data-plan');
+                cartItemsData.push({ planName, amount });
+            });
+        });
+    </script>
+</body>
+</html>

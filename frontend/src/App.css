@@ -1,0 +1,78 @@
+.plansdiv img{
+    width: 370px;
+    height: 470px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.plansdiv .m-3{
+    transition: transform .2s;
+}
+.plansdiv .m-3:hover{
+    transform: scale(1.1);
+}
+.navbar-nav .nav-link:hover{
+  color: red;
+}
+.menumain .list-group a li:hover{
+    background-color: rgb(187, 203, 234);
+}
+.homemain{
+    background-image: url("../src/images/medical-bg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+.homemain{
+    background-image: url("../src/images/medical-bg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+.plansmaindiv .card{
+  border-radius: 20px;
+  width: 28%;
+}
+#engback,#empback,#enhback{
+    background-color: beige;
+    color: black;
+}
+
+#engbtn,#empbtn,#enhbtn{
+    background-color: black;
+    color: beige;
+    border: none;
+}
+
+#engback:hover,#empback:hover,#enhback:hover{
+    background-color:black;
+    color: beige;
+}
+#engback:hover #engbtn,#empback:hover #empbtn,#enhback:hover #enhbtn{
+    background-color: beige;
+    color: black;
+}
+.benifitimgs{
+    width: 310px;
+    height: 250px;
+    border-radius: 20px;
+}
+.benifitsdiv .card{
+    width: 350px;
+    border: 5px solid white;
+}
+.benifitsdiv .card:hover{
+  
+    box-shadow: 2px 2px 4px 6px rgb(235, 235, 235);
+    cursor: pointer;
+}
+.benifitsmaindiv{
+    padding: 30px 0px 30px 0px;
+
+}
+.planbannerdiv{
+    background-image: url("../src/images/planBanner.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    height:700px;
+}

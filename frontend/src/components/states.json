@@ -1,0 +1,170 @@
+[
+  {
+    "state": "Andhra Pradesh",
+    "capital": "Amaravati",
+    "population": 49506799,
+    "cities": ["Visakhapatnam", "Vijayawada", "Guntur"]
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "capital": "Itanagar",
+    "population": 1383727,
+    "cities": ["Itanagar", "Naharlagun", "Pasighat"]
+  },
+  {
+    "state": "Assam",
+    "capital": "Dispur",
+    "population": 35607039,
+    "cities": ["Guwahati", "Dibrugarh", "Silchar"]
+  },
+  {
+    "state": "Bihar",
+    "capital": "Patna",
+    "population": 124799926,
+    "cities": ["Patna", "Gaya", "Bhagalpur"]
+  },
+  {
+    "state": "Chhattisgarh",
+    "capital": "Raipur",
+    "population": 29436231,
+    "cities": ["Raipur", "Bhilai", "Bilaspur"]
+  },
+  {
+    "state": "Goa",
+    "capital": "Panaji",
+    "population": 1547536,
+    "cities": ["Panaji", "Vasco da Gama", "Margao"]
+  },
+  {
+    "state": "Gujarat",
+    "capital": "Gandhinagar",
+    "population": 63872399,
+    "cities": ["Ahmedabad", "Surat", "Vadodara"]
+  },
+  {
+    "state": "Haryana",
+    "capital": "Chandigarh",
+    "population": 28941133,
+    "cities": ["Chandigarh", "Faridabad", "Gurgaon"]
+  },
+  {
+    "state": "Himachal Pradesh",
+    "capital": "Shimla",
+    "population": 730703,
+    "cities": ["Shimla", "Manali", "Dharamshala"]
+  },
+  {
+    "state": "Jharkhand",
+    "capital": "Ranchi",
+    "population": 38593948,
+    "cities": ["Ranchi", "Jamshedpur", "Dhanbad"]
+  },
+  {
+    "state": "Karnataka",
+    "capital": "Bengaluru",
+    "population": 67562686,
+    "cities": ["Bangalore", "Mysore", "Hubli"]
+  },
+  {
+    "state": "Kerala",
+    "capital": "Thiruvananthapuram",
+    "population": 35699443,
+    "cities": ["Thiruvananthapuram", "Kochi", "Kozhikode"]
+  },
+  {
+    "state": "Madhya Pradesh",
+    "capital": "Bhopal",
+    "population": 85358965,
+    "cities": ["Bhopal", "Indore", "Jabalpur"]
+  },
+  {
+    "state": "Maharashtra",
+    "capital": "Mumbai",
+    "population": 123144223,
+    "cities": ["Mumbai", "Pune", "Nagpur"]
+  },
+  {
+    "state": "Manipur",
+    "capital": "Imphal",
+    "population": 3091545,
+    "cities": ["Imphal", "Thoubal", "Bishnupur"]
+  },
+  {
+    "state": "Meghalaya",
+    "capital": "Shillong",
+    "population": 3366710,
+    "cities": ["Shillong", "Tura", "Jowai"]
+  },
+  {
+    "state": "Mizoram",
+    "capital": "Aizawl",
+    "population": 1239244,
+    "cities": ["Aizawl", "Lunglei", "Saiha"]
+  },
+  {
+    "state": "Nagaland",
+    "capital": "Kohima",
+    "population": 2249695,
+    "cities": ["Kohima", "Dimapur", "Mokokchung"]
+  },
+  {
+    "state": "Odisha",
+    "capital": "Bhubaneswar",
+    "population": 45954709,
+    "cities": ["Bhubaneswar", "Cuttack", "Rourkela"]
+  },
+  {
+    "state": "Punjab",
+    "capital": "Chandigarh",
+    "population": 30141373,
+    "cities": ["Chandigarh", "Ludhiana", "Amritsar"]
+  },
+  {
+    "state": "Rajasthan",
+    "capital": "Jaipur",
+    "population": 81032689,
+    "cities": ["Jaipur", "Udaipur", "Jodhpur"]
+  },
+  {
+    "state": "Sikkim",
+    "capital": "Gangtok",
+    "population": 690251,
+    "cities": ["Gangtok", "Namchi", "Gyalshing"]
+  },
+  {
+    "state": "Tamil Nadu",
+    "capital": "Chennai",
+    "population": 77841267,
+    "cities": ["Chennai", "Coimbatore", "Madurai"]
+  },
+  {
+    "state": "Telangana",
+    "capital": "Hyderabad",
+    "population": 39184011,
+    "cities": ["Hyderabad", "Warangal", "Nizamabad"]
+  },
+  {
+    "state": "Tripura",
+    "capital": "Agartala",
+    "population": 4169794,
+    "cities": ["Agartala", "Udaipur", "Dharmanagar"]
+  },
+  {
+    "state": "Uttar Pradesh",
+    "capital": "Lucknow",
+    "population": 231562478,
+    "cities": ["Lucknow", "Kanpur", "Agra"]
+  },
+  {
+    "state": "Uttarakhand",
+    "capital": "Dehradun",
+    "population": 11250858,
+    "cities": ["Dehradun", "Haridwar", "Rishikesh"]
+  },
+  {
+    "state": "West Bengal",
+    "capital": "Kolkata",
+    "population": 99609303,
+    "cities": ["Kolkata", "Howrah", "Durgapur"]
+  }
+]
